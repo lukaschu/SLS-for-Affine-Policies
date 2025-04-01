@@ -27,7 +27,9 @@ class model:
         hx_up = np.ones((2))
         hx_up[0] = 1.2
         hx_up[1] = 0.8
-        hx_low = 0 *np.ones((2))
+        hx_low = np.ones((2))
+        hx_low[0] = 1.2
+        hx_low[1] = 0.8
         self.hx = np.hstack((hx_up,hx_low))
 
         Hu_up = np.eye((1)) # one input per node
