@@ -34,4 +34,11 @@ We tested with python3.13, all packages can be found in the requirements.txt fil
   ```
   Or of course, use your favourite IDE
 
+## License
+
+This code is licensed under the Apache License 2.0. If you use this code in your research, please cite our paper:
+
+Lukas Schüepp, Giulia De Pasquale, Florian Dröfler, "System Level Synthesis for Affine Control Policies: Model-Based and Data-Driven Settings"
+TBD
+
    
